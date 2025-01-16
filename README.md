@@ -22,6 +22,27 @@ Este projeto apresenta uma API RESTful para o gerenciamento de tópicos, com as 
 
 ## Estrutura do Projeto
 
+<div> 
+  <table>
+    <tr>
+      <th>Classe/Componente</th>
+      <th width="450px">Funcionalidade(s)</th> 
+    </tr> 
+    <tr> 
+      <th>domain</th> 
+      <td>Contém as entidades do sistema, como "Topico" e "Usuario", que representam os dados e os comportamentos principais da aplicação. Também inclui enums e classes relacionadas ao domínio, como o "EstadoTopico" e o "Curso". Além disso, contém os DTOs (Data Transfer Objects), que são usados para transferir dados entre as camadas da aplicação, como "DadosCadastroTopico" e "DadosListagemTopico".</td> 
+    </tr> 
+    <tr> 
+      <th>infrastructure</th> 
+      <td>Inclui classes de infraestrutura, como a configuração de segurança, gerenciando autenticação e autorização. Contém também o "TokenService" para manipulação de tokens e outras classes auxiliares de segurança e exceções.</td> 
+    </tr> 
+    <tr> 
+      <th>controller</th> 
+      <td>Contém os controladores responsáveis por expor os endpoints REST para o gerenciamento de "Topico" e "Usuario", além de manipular as requisições HTTP relacionadas, como criação, atualização, listagem e exclusão de tópicos e usuários.</td> 
+    </tr> 
+  </table> 
+</div>
+
 <br>
 
 ## Como Utilizar a Aplicação
@@ -33,7 +54,9 @@ Para poder utilizar a aplicação, deve-se seguir os seguintes passos:
 - Certifique-se de ter o Maven configurado para gerenciar as dependências do projeto. Sempre que adicionar ou atualizar alguma dependência, atualize o Maven do projeto para garantir que todas as dependências sejam baixadas corretamente.
 - Utilize algum banco de dados como MySQL ou PostgreSQL e configure o banco de dados de acordo com as configurações definidas no arquivo <i>application.properties</i>. Você pode usar tanto variáveis de ambiente como valores diretamente no arquivo para definir a URL, o usuário, a senha e outras configurações necessárias para a conexão com o banco de dados.
 
-> **Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
+**Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
+
+<br>
 
 
 
