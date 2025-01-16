@@ -20,4 +20,21 @@ Este projeto apresenta uma API RESTful para o gerenciamento de tópicos, com as 
 
 <br>
 
-##
+## Estrutura do Projeto
+
+<br>
+
+## Como Utilizar a Aplicação
+
+Para poder utilizar a aplicação, deve-se seguir os seguintes passos:
+- Utilize alguma IDE, como Eclipse ou IntelliJ IDEA.
+- Certifique-se de ter o plugin do Lombok instalado e configurado corretamente no ambiente de desenvolvimento.
+- Garanta que o Java Development Kit (JDK) esteja instalado na versão 17 ou superior.
+- Certifique-se de ter o Maven configurado para gerenciar as dependências do projeto. Sempre que adicionar ou atualizar alguma dependência, atualize o Maven do projeto para garantir que todas as dependências sejam baixadas corretamente.
+- Utilize algum banco de dados como MySQL ou PostgreSQL e configure o banco de dados de acordo com as configurações definidas no arquivo <i>application.properties</i>. Você pode usar tanto variáveis de ambiente como valores diretamente no arquivo para definir a URL, o usuário, a senha e outras configurações necessárias para a conexão com o banco de dados.
+
+> **Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
+
+
+
+
