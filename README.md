@@ -33,13 +33,22 @@ Para poder utilizar a aplicação, deve-se seguir os seguintes passos:
 - Certifique-se de ter o Maven configurado para gerenciar as dependências do projeto. Sempre que adicionar ou atualizar alguma dependência, atualize o Maven do projeto para garantir que todas as dependências sejam baixadas corretamente.
 - Utilize algum banco de dados como MySQL ou PostgreSQL e configure o banco de dados de acordo com as configurações definidas no arquivo <i>application.properties</i>. Você pode usar tanto variáveis de ambiente como valores diretamente no arquivo para definir a URL, o usuário, a senha e outras configurações necessárias para a conexão com o banco de dados.
 
-**Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
+> **Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
+
+Na API de comunicação, temos as seguintes requisições disponíveis:
+- Login (POST): /login
+- Cadastrar Tópico (POST): /topicos
+- Listar Todos os Tópicos (GET): /topicos/listar/todos
+- Listar 10 Tópicos (GET): /topicos/listar/10
+- Consultar Tópico Específico (GET): /topicos/{id}
+- Atualizar Tópico (PUT): /topicos
+- Excluir Tópico (DELETE): /topicos/{id}
 
 <br>
 
 ___
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 <div> 
   <table>
@@ -123,8 +132,6 @@ ___
 <br>
 
 ___
-
-<br>
 
 ## Autor
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168394448?v=4" width=115><br><sub>Lorenzo Rover</sub>](https://github.com/lorenzorover) |
