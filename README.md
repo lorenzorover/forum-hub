@@ -5,6 +5,8 @@ Programa desenvolvido durante o curso One da plataforma Alura, utilizando framew
 
 <br>
 
+___
+
 ## Funcionalidades
 
 Este projeto apresenta uma API RESTful para o gerenciamento de tópicos, com as seguintes funcionalidades:
@@ -19,6 +21,23 @@ Este projeto apresenta uma API RESTful para o gerenciamento de tópicos, com as 
 - **Paginação e Ordenação:** Suporte à paginação e ordenação para facilitar a manipulação de grandes conjuntos de dados.
 
 <br>
+
+___
+
+## Como Utilizar a Aplicação
+
+Para poder utilizar a aplicação, deve-se seguir os seguintes passos:
+- Utilize alguma IDE, como Eclipse ou IntelliJ IDEA.
+- Certifique-se de ter o plugin do Lombok instalado e configurado corretamente no ambiente de desenvolvimento.
+- Garanta que o Java Development Kit (JDK) esteja instalado na versão 17 ou superior.
+- Certifique-se de ter o Maven configurado para gerenciar as dependências do projeto. Sempre que adicionar ou atualizar alguma dependência, atualize o Maven do projeto para garantir que todas as dependências sejam baixadas corretamente.
+- Utilize algum banco de dados como MySQL ou PostgreSQL e configure o banco de dados de acordo com as configurações definidas no arquivo <i>application.properties</i>. Você pode usar tanto variáveis de ambiente como valores diretamente no arquivo para definir a URL, o usuário, a senha e outras configurações necessárias para a conexão com o banco de dados.
+
+**Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
+
+<br>
+
+___
 
 ## Estrutura do Projeto
 
@@ -45,19 +64,73 @@ Este projeto apresenta uma API RESTful para o gerenciamento de tópicos, com as 
 
 <br>
 
-## Como Utilizar a Aplicação
+___
 
-Para poder utilizar a aplicação, deve-se seguir os seguintes passos:
-- Utilize alguma IDE, como Eclipse ou IntelliJ IDEA.
-- Certifique-se de ter o plugin do Lombok instalado e configurado corretamente no ambiente de desenvolvimento.
-- Garanta que o Java Development Kit (JDK) esteja instalado na versão 17 ou superior.
-- Certifique-se de ter o Maven configurado para gerenciar as dependências do projeto. Sempre que adicionar ou atualizar alguma dependência, atualize o Maven do projeto para garantir que todas as dependências sejam baixadas corretamente.
-- Utilize algum banco de dados como MySQL ou PostgreSQL e configure o banco de dados de acordo com as configurações definidas no arquivo <i>application.properties</i>. Você pode usar tanto variáveis de ambiente como valores diretamente no arquivo para definir a URL, o usuário, a senha e outras configurações necessárias para a conexão com o banco de dados.
+## 📚 Tecnologias utilizadas
 
-**Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
+<div>
+  <table>
+    <tr>
+      <th>
+        Linguagem
+      </th>
+      <td>
+        <img alt="Static Badge" src="https://img.shields.io/badge/java-yellow?style=for-the-badge">
+        <img alt="Static Badge" src="https://img.shields.io/badge/sql%20-%20cyan?style=for-the-badge">
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Banco de Dados
+      </th>
+      <td>
+        <img alt="Static Badge" src="https://img.shields.io/badge/mysql%20-%20blue?style=for-the-badge">
+      </td>
+    <tr>
+      <th>
+         Biblioteca
+      </th>
+       <td width="420px">
+         <img alt="Static Badge" src="https://img.shields.io/badge/lombok%20-%20black?style=for-the-badge">
+         <img alt="Static Badge" src="https://img.shields.io/badge/spring%20web%20-%20black?style=for-the-badge">
+         <img alt="Static Badge" src="https://img.shields.io/badge/spring%20boot%20devtools%20-%20black?style=for-the-badge">
+         <img alt="Static Badge" src="https://img.shields.io/badge/spring%20data%20jpa%20-%20black?style=for-the-badge">
+         <img alt="Static Badge" src="https://img.shields.io/badge/flyway%20migration%20-%20black?style=for-the-badge">
+         <img alt="Static Badge" src="https://img.shields.io/badge/mysql%20driver%20-%20black?style=for-the-badge">
+         <img alt="Static Badge" src="https://img.shields.io/badge/validation%20-%20black?style=for-the-badge">
+         <img alt="Static Badge" src="https://img.shields.io/badge/spring%20security%20-%20black?style=for-the-badge">
+      </td>
+    </tr>
+    <tr>
+      <th>
+        IDE
+      </th>
+      <td>
+        <img alt="Static Badge" src="https://img.shields.io/badge/intelij-black?style=for-the-badge">
+      </td>
+    </tr>
+    <tr>
+      <th>
+        Framework
+      </th>
+      <td>
+        <img alt="Static Badge" src="https://img.shields.io/badge/spring%20boot%20-%20green?style=for-the-badge">
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br>
 
+___
+
+<br>
+
+## Autor
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/168394448?v=4" width=115><br><sub>Lorenzo Rover</sub>](https://github.com/lorenzorover) |
+| :---: |
+<br>
+Desenvolvido em janeiro de 2025.
 
 
 
