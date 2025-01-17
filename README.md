@@ -53,6 +53,32 @@ Na API de comunicação, temos as seguintes requisições disponíveis, lembrand
 
 <br>
 
+### Exemplos de utilização
+
+Inserindo a senha em formato de hash no banco de dados:
+
+<img src="https://raw.githubusercontent.com/lorenzorover/forum-hub/refs/heads/main/insert%20hashcode%20sql.png">
+
+<br>
+
+Exemplo de Login com a geração de token:
+
+<img src="https://raw.githubusercontent.com/lorenzorover/forum-hub/refs/heads/main/example%20login.png">
+
+<br>
+
+Exemplo de token sendo utilizado após o login ser efetuado:
+
+<img src="https://raw.githubusercontent.com/lorenzorover/forum-hub/refs/heads/main/example%20token%20utilization.png">
+
+<br>
+
+Criação de um tópico:
+
+<img src="https://raw.githubusercontent.com/lorenzorover/forum-hub/refs/heads/main/example%20create%20topico.png">
+
+<br>
+
 ___
 
 ## 📂 Estrutura do Projeto
