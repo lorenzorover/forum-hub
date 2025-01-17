@@ -49,7 +49,7 @@ Na API de comunicação, temos as seguintes requisições disponíveis, lembrand
 - Atualizar Tópico (PUT): /topicos
 - Excluir Tópico (DELETE): /topicos/{id}
 
-**Nota:** Para realizar qualquer requisição, é necessário pegar o token gerado no login e inseri-lo no cabeçalho da requisição como um token Bearer.
+**Nota:** Para realizar qualquer requisição, inclusive a do login, é necessário pegar o token gerado no login e inseri-lo no cabeçalho da requisição como um token Bearer.
 
 <br>
 
