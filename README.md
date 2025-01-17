@@ -1,5 +1,3 @@
-# Forum Hub
-
 ### Desafio 04 - Curso One-Alura
 Programa desenvolvido durante o curso One da plataforma Alura, utilizando framework Spring do Java e banco de dados, alem de conter sistema de segurança por token.<br>
 
@@ -33,9 +31,16 @@ Para poder utilizar a aplicação, deve-se seguir os seguintes passos:
 - Certifique-se de ter o Maven configurado para gerenciar as dependências do projeto. Sempre que adicionar ou atualizar alguma dependência, atualize o Maven do projeto para garantir que todas as dependências sejam baixadas corretamente.
 - Utilize algum banco de dados como MySQL ou PostgreSQL e configure o banco de dados de acordo com as configurações definidas no arquivo <i>application.properties</i>. Você pode usar tanto variáveis de ambiente como valores diretamente no arquivo para definir a URL, o usuário, a senha e outras configurações necessárias para a conexão com o banco de dados.
 
-> **Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
+**Nota:** Como esta aplicação é apenas um back-end com comunicação via JSON, você precisará de um cliente HTTP para realizar as requisições, como Postman ou Insomnia.
 
-Na API de comunicação, temos as seguintes requisições disponíveis:
+- Por último, você deve registrar a senha em formato hashcode em Bcrypt. Para gerar e validar tokens JWT, você pode utilizar o site [jwt.io](https://jwt.io). O exemplo que utilizei foi a senha "123456", e o formato ficou da seguinte forma, caso queira utilizar como exemplo:
+> insert into usuarios values (1, 'nome', '$2a$10$Y50UaMFOxteibQEYLrwuHeehHYfcoafCopUazP12.rqB41bsolF5.');
+
+<br>
+
+### Tipos de Requisições
+
+Na API de comunicação, temos as seguintes requisições disponíveis, lembrando que voce deve colocar o endereço <i>https://localhost:8080/</i> na requisição antes:
 - Login (POST): /login
 - Cadastrar Tópico (POST): /topicos
 - Listar Todos os Tópicos (GET): /topicos/listar/todos
@@ -43,6 +48,8 @@ Na API de comunicação, temos as seguintes requisições disponíveis:
 - Consultar Tópico Específico (GET): /topicos/{id}
 - Atualizar Tópico (PUT): /topicos
 - Excluir Tópico (DELETE): /topicos/{id}
+
+**Nota:** Para realizar qualquer requisição, é necessário pegar o token gerado no login e inseri-lo no cabeçalho da requisição como um token Bearer.
 
 <br>
 
