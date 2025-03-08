@@ -79,6 +79,22 @@ Criação de um tópico:
 
 <br>
 
+### Swagger - OpenAI
+
+Caso prefira, você pode tambem utilizar o Swagger da OpenAI, que é uma ferramenta que permite facilitar o manuseio das requisições da aplicação. <br>
+Para utilizá-la, você deve entrar no localhost pelo seguinte link:<br>
+<i>https://localhost:8080/swagger-ui.html</i> ou <i>https://localhost:8080/swagger-ui/index.html</i><br>
+
+A tela que deve aparecer é a seguinte:<br>
+
+<img src="https://raw.githubusercontent.com/lorenzorover/forum-hub/refs/heads/main/example%20swagger.png">
+
+<br>
+
+Utilizando o Swagger, você ainda deve utilizar o meio do Token JWT, que se encontra acima das requisições, à direita.
+
+<br>
+
 ___
 
 ## 📂 Estrutura do Projeto
