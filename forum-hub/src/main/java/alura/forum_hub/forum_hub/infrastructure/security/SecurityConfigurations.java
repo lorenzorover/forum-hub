@@ -22,15 +22,16 @@ public class SecurityConfigurations {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        return
-                http.csrf(csrf -> csrf.disable())
-                        .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-                        .authorizeHttpRequests(req -> {
-                            req.requestMatchers("/login").permitAll();
-                            req.anyRequest().authenticated();
-                        })
-                        .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)
-                        .build();
+        return http
+                .csrf(csrf -> csrf.disable())
+                .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .authorizeHttpRequests(req -> {
+                    // Permite o acesso ao Swagger UI e seus recursos estáticos
+                    req.requestMatchers("/login", "/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**").permitAll();
+                    req.anyRequest().authenticated();
+                })
+                .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)
+                .build();
     }
 
     @Bean
@@ -42,6 +43,5 @@ public class SecurityConfigurations {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
-
-
 }
+
