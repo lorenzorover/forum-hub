@@ -161,6 +161,14 @@ ___
     </tr>
     <tr>
       <th>
+        Framework
+      </th>
+      <td>
+        <img alt="Static Badge" src="https://img.shields.io/badge/spring%20boot%20-%20green?style=for-the-badge">
+      </td>
+    </tr>
+    <tr>
+      <th>
         IDE
       </th>
       <td>
@@ -169,10 +177,10 @@ ___
     </tr>
     <tr>
       <th>
-        Framework
+        Tecnologias
       </th>
       <td>
-        <img alt="Static Badge" src="https://img.shields.io/badge/spring%20boot%20-%20green?style=for-the-badge">
+        <img alt="Static Badge" src="https://img.shields.io/badge/spring%20api-grey?style=for-the-badge">
       </td>
     </tr>
   </table>
