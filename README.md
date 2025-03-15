@@ -180,7 +180,7 @@ ___
         Tecnologias
       </th>
       <td>
-        <img alt="Static Badge" src="https://img.shields.io/badge/spring%20api-grey?style=for-the-badge">
+        <img alt="Static Badge" src="https://img.shields.io/badge/open%20api-grey?style=for-the-badge">
       </td>
     </tr>
   </table>
