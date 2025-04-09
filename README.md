@@ -79,9 +79,9 @@ Criação de um tópico:
 
 <br>
 
-### Swagger - OpenAI
+### Swagger - OpenAPI
 
-Caso prefira, você pode tambem utilizar o Swagger da OpenAI, que é uma ferramenta que permite facilitar o manuseio das requisições da aplicação. <br>
+Caso prefira, você pode tambem utilizar o Swagger da OpenAPI, que é uma ferramenta que permite facilitar o manuseio das requisições da aplicação. <br>
 Para utilizá-la, você deve entrar no localhost pelo seguinte link:<br>
 <i>https://localhost:8080/swagger-ui.html</i> ou <i>https://localhost:8080/swagger-ui/index.html</i><br>
 
